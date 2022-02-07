@@ -16,6 +16,12 @@ public class Ford extends Car{
 		// for this method implement this: from the sale price computed from Car class, subtract the manufacturer Discount.
 		return regularPrice - manufacturerDiscount;
 			
+	}
+
+	@Override
+	public String toString() {
+		return "Ford [year=" + year + ", manufacturerDiscount=" + manufacturerDiscount + ", speed=" + speed
+				+ ", regularPrice=" + regularPrice + ", color=" + color + "]";
 	} 
 
 }

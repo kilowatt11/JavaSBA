@@ -20,6 +20,12 @@ public class Sedan extends Car{
 			discount = regularPrice - (regularPrice *.20);
 		}
 		return discount;
-	} 
+	}
 
+	@Override
+	public String toString() {
+		return "Sedan [length=" + length + ", speed=" + speed + ", regularPrice=" + regularPrice + ", color=" + color
+				+ "]";
+	} 
+	
 }

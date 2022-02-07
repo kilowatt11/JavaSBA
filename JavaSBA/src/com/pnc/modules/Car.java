@@ -19,4 +19,10 @@ public class Car {
 	public double getSalePrice() {
 		return regularPrice;
 	}
+
+	@Override
+	public String toString() {
+		return "Car [speed=" + speed + ", regularPrice=" + regularPrice + ", color=" + color + "]";
+	}
+	
 }
