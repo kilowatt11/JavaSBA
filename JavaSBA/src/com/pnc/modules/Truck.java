@@ -6,7 +6,6 @@ public class Truck extends Car{
 	public Truck(int speed, double regularPrice, String color, int weight) {
 		super(speed, regularPrice, color);
 		this.weight = weight;
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -27,6 +26,4 @@ public class Truck extends Car{
 		return "Truck [weight=" + weight + ", speed=" + speed + ", regularPrice=" + regularPrice + ", color=" + color
 				+ "]";
 	} 
-	
-
 }
