@@ -20,6 +20,13 @@ public class Truck extends Car{
 		}
 		return salesPrice;
 		
+	}
+
+	@Override
+	public String toString() {
+		return "Truck [weight=" + weight + ", speed=" + speed + ", regularPrice=" + regularPrice + ", color=" + color
+				+ "]";
 	} 
+	
 
 }
